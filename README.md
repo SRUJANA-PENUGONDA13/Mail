@@ -5,14 +5,14 @@ Service - "https://sample-srujana-deploy.herokuapp.com/mail/{{toMail}}/{{subject
 
 Instructions:
 
-Message: Message must be sent in the below dictionary format
- {  
-    senderName : name of the sender, 
-    receiverName : Receiver name ,
-    mail : senders mail , 
-    message : message to receiver 
-}
-Subject: Subject of mail (plain text format)
-toMail: Receivers Mail Address
+Message: Message must be sent in the below dictionary format <br />
+ {  <br />
+    senderName : name of the sender, <br />
+    receiverName : Receiver name ,<br />
+    mail : senders mail , <br />
+    message : message to receiver <br />
+}<br />
+Subject: Subject of mail (plain text format)<br />
+toMail: Receivers Mail Address<br />
 
 
