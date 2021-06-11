@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home_page():
         msg = "Please go through the below url for sending mail with name, mail and message details"
-        url = "https://sample-srujana-deploy.herokuapp.com/mail/{{toMail}}/{{subject}}/{{message}}"
+        url = "https://srujana-mail-service.herokuapp.com/mail/{{toMail}}/{{subject}}/{{message}}"
         instructions = { "toMail" : "Receivers Mail Address", "Subject" : "Subject of mail (plain text format)", "Message" : "Message must be sent in the below dictionary format\n { senderName : name of the sender, receiverName : Receiver name ,mail : senders mail , message : message to receiver }"}
         details = { "URL" : url, "Instructions" : instructions, "Message" : msg}
         return {"Details" : details, "Status" : "Success"}
