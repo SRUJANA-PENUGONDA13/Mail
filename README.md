@@ -1,7 +1,7 @@
 # Mail
 A simple mail service developed using flask and google API, To send mails to anyone from my mail id in particular format.
 
-Service - "https://sample-srujana-deploy.herokuapp.com/mail/{{toMail}}/{{subject}}/{{message}}
+Service - "https://srujana-mail-service.herokuapp.com/mail/{{toMail}}/{{subject}}/{{message}}
 
 Instructions:
 
